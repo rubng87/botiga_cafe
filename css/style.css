@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, Arial, Helvetica, "sans-serif";
+}
+
+
+
+:root {
+    --color-back-1: rgb(5, 54, 23);
+    --color-emphasis: rgb(117, 76, 26);
+    --width-content: 1200px;
+
+}
+
+.width-content {
+    max-width : var(--width-content);
+    margin: 0 auto;
+}
+
+header div {
+    
+    position: absolute;
+    align-items: flex-end;
+    
+}
+
+header div> img {
+    width : 20vw;
+}
+
+header > img {
+    width: 100%;
+}
+
+h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 6vw;
+    position: absolute;
+    top: 0;
+    color: white;
+    right: 50px;
+}
+
+/* =============================================  */
+/* Barra de navegación  */
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(5, 54, 23);
+    z-index: 2;
+    color: white;
+    margin-top: -5px;
+
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    
+    
+    padding: 10px;
+
+}
+
+.nav-ul > li {
+    list-style: none;
+    padding: 10px;
+    
+    /* align-items: center; */
+}
+
+.li {
+    border-top: 10px solid white;
+}
+
+.nav-ul > li:hover {
+    color: white;
+    background-color: rgb(12, 110, 48);
+    border-radius: 10px;
+} 
+.nav-ul > li > a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.5rem;
+}
+/* Body */
+
+h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 2vw
+}
+
+
+
+/* .main > section > div > article > p {
+    font-family: "Dancing Script", cursive;
+    font-size: 6vw;
+} */
+
+article {
+    display: flex;
+    justify-content: center;
+
+}
+
+article > div > p {
+    font-size: 1vw;
+}
+
+article > img {
+    width: 50%;
+}
+
+article > video {
+    width: 50%;
+}
+
+.background-green {
+    background-color: rgb(5, 54, 23);
+}
+
+.text-white {
+    color: white;
+}
+
+article > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
+/* Footer  */
+
+footer {
+    background-color: var(--color-back-1);
+    position: relative;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 10px 0;
+}
+
+.footer-div > p {
+    font-family: Amita, serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-div > img {
+    width: 80px;
+}
+
+.footer-div > div > img {
+    height: 20px;
+}
