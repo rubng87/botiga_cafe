@@ -171,6 +171,24 @@ article > div {
     padding: 0 20px;
 }
 
+.equipo {
+    display: flex;
+}
+
+.equipo article {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.equipo div{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.equipo article img {
+    width: 100%;
+}
 /* =============================================  */
 /* footer */
 
