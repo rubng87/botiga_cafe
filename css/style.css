@@ -11,7 +11,6 @@
 
 :root {
     --color-back-1: rgb(5, 54, 23);
-    --color-emphasis: rgb(117, 76, 26);
     --width-content: 1200px;
 
 }
@@ -95,7 +94,31 @@ h2 {
     font-size: 2vw
 }
 
+.opinen {
+    display: flex;
+    font-size: 1.5rem;
+    padding: 20px;
+    justify-content: space-between;
+}
 
+.opinen > blockquote {
+    width: 30%;
+}
+
+.red {
+    color: red;
+    float: right;
+    margin-top: 25px;
+
+}
+
+.h2-centro {
+    text-align: center;
+}
+
+.p {
+    justify-content: space-around;
+}
 
 /* .main > section > div > article > p {
     font-family: "Dancing Script", cursive;
@@ -116,7 +139,7 @@ article > img {
     width: 50%;
 }
 
-article > video {
+video {
     width: 50%;
 }
 
@@ -134,12 +157,6 @@ article > div {
     justify-content: center;
     padding: 0 20px;
 }
-
-
-
-
-
-
 
 /* Footer  */
 
@@ -159,7 +176,7 @@ footer {
 }
 
 .footer-div > p {
-    font-family: Amita, serif;
+    font-family: Lato, serif;
     font-size: 1.5rem;
     font-weight: 700;
 }
