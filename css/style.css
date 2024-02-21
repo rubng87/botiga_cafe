@@ -77,10 +77,14 @@ nav {
     border-top: 10px solid white;
 }
 
+.texto-pestaña-centro {
+    border-top: 10px solid rgb(5, 54, 23);
+}
+
 .nav-ul > li:hover {
     color: white;
     background-color: rgb(12, 110, 48);
-    border-radius: 10px;
+    /* border-radius: 10px; */
 } 
 .nav-ul > li > a {
     text-decoration: none;
@@ -114,11 +118,10 @@ h2 {
 
 .h2-centro {
     text-align: center;
+    margin-top: 20px;
 }
 
-.p {
-    justify-content: space-around;
-}
+
 
 /* .main > section > div > article > p {
     font-family: "Dancing Script", cursive;
