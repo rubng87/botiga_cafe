@@ -16,7 +16,7 @@
 }
 
 .width-content {
-    max-width : var(--width-content);
+    max-width : 1200px;
     margin: 0 auto;
 }
 
@@ -156,6 +156,12 @@ video {
 
 .text-white {
     color: white;
+}
+
+.texto-centro {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 article > div {
