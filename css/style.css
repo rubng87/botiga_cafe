@@ -20,6 +20,13 @@
     margin: 0 auto;
 }
 
+
+
+/* =============================================  */
+/* header */
+
+
+
 header div {
     
     position: absolute;
@@ -44,8 +51,10 @@ h1 {
     right: 50px;
 }
 
+
 /* =============================================  */
 /* Barra de navegación  */
+
 
 nav {
     position: sticky;
@@ -60,10 +69,7 @@ nav {
 .nav-ul {
     display: flex;
     justify-content: space-between;
-    
-    
     padding: 10px;
-
 }
 
 .nav-ul > li {
@@ -91,7 +97,10 @@ nav {
     color: inherit;
     font-size: 1.5rem;
 }
-/* Body */
+
+
+/* =============================================  */
+/* body */
 
 h2 {
     font-family: "Dancing Script", cursive;
@@ -107,6 +116,8 @@ h2 {
 
 .opinen > blockquote {
     width: 30%;
+    font-family: Lato, Arial, Helvetica, "sans-serif";
+    font-size: 1.5rem
 }
 
 .red {
@@ -120,13 +131,6 @@ h2 {
     text-align: center;
     margin-top: 20px;
 }
-
-
-
-/* .main > section > div > article > p {
-    font-family: "Dancing Script", cursive;
-    font-size: 6vw;
-} */
 
 article {
     display: flex;
@@ -161,7 +165,8 @@ article > div {
     padding: 0 20px;
 }
 
-/* Footer  */
+/* =============================================  */
+/* footer */
 
 footer {
     background-color: var(--color-back-1);
@@ -174,7 +179,6 @@ footer {
 .footer-div {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     padding: 10px 0;
 }
 
