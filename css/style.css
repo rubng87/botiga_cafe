@@ -43,7 +43,7 @@ header > img {
 }
 
 h1 {
-    font-family: "Dancing Script", cursive;
+    /* font-family: "Dancing Script", cursive; */
     font-size: 6vw;
     position: absolute;
     top: 0;
@@ -103,7 +103,7 @@ nav {
 /* body */
 
 h2 {
-    font-family: "Dancing Script", cursive;
+    /* font-family: "Dancing Script", cursive; */
     font-size: 2vw
 }
 
@@ -139,7 +139,8 @@ article {
 }
 
 article > div > p {
-    font-size: 1vw;
+    /* font-size: 1vw; */
+    font-size: 1.5vw;
 }
 
 article > img {
@@ -204,11 +205,12 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 10px 0;
+    font-size: 1.5rem;
 }
 
 .footer-div > p {
     font-family: Lato, serif;
-    font-size: 1.5rem;
+    font-size: 15rem;
     font-weight: 700;
 }
 
